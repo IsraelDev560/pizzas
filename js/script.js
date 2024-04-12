@@ -8,6 +8,10 @@ function calcularDiferenca() {
             document.getElementById("resultado").textContent = "Dinheiro insuficiente";
         }
 
+        else if(isNaN (valorInserido)){
+            document.getElementById("resultado").textContent = "Dinheiro insuficiente";
+        }
+
 }
 
 
