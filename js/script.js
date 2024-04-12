@@ -11,7 +11,6 @@ function calcularDiferenca() {
         else if(isNaN (valorInserido)){
             document.getElementById("resultado").textContent = "Dinheiro insuficiente";
         }
-
 }
 
 
