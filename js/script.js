@@ -4,11 +4,7 @@ function calcularDiferenca() {
     var diferenca = valorInserido - selectedPizzaValue;
     document.getElementById("resultado").textContent = "Seu Troco é: R$ " + diferenca.toFixed(2);
 
-        if(valorInserido < selectedPizzaValue){
-            document.getElementById("resultado").textContent = "Dinheiro insuficiente";
-        }
-
-        else if(isNaN (valorInserido)){
+        if(valorInserido < selectedPizzaValue || isNaN (valorInserido)){
             document.getElementById("resultado").textContent = "Dinheiro insuficiente";
         }
 }
