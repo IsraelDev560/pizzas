@@ -13,3 +13,9 @@ img{
     background-color: white;
     border-radius: 10px;
 }
+
+select,input{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
